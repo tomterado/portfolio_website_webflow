@@ -1588,6 +1588,7 @@ figcaption {
 }
 
 .text-block-6 {
+  font-family: Ubuntu, Helvetica, sans-serif;
   text-align: right;
 }
 
@@ -1620,6 +1621,10 @@ figcaption {
 
 .text-span-2 {
   text-decoration: line-through;
+}
+
+.text-block-7 {
+  font-family: Ubuntu, Helvetica, sans-serif;
 }
 
 .nav-menu-2 {
@@ -1663,6 +1668,7 @@ figcaption {
 }
 
 .text-block-9 {
+  font-family: Ubuntu, Helvetica, sans-serif;
   text-align: center;
 }
 
@@ -1885,6 +1891,7 @@ figcaption {
 }
 
 .link-2 {
+  box-shadow: none;
   font-family: Ubuntu, Helvetica, sans-serif;
   font-size: 14px;
 }
@@ -1895,6 +1902,18 @@ figcaption {
 
 .image-15 {
   border-radius: 8px;
+}
+
+.link-3 {
+  box-shadow: none;
+}
+
+.link-4 {
+  box-shadow: none;
+}
+
+.link-5 {
+  box-shadow: none;
 }
 
 html.w-mod-js *[data-ix="load-up"] {
@@ -2416,14 +2435,14 @@ html.w-mod-js *[data-ix="load-up"] {
     line-height: 20px;
   }
   .herosection {
-    height: 40vh;
+    height: 30vh;
   }
   .portfolio-section {
     padding-right: 0px;
     padding-left: 0px;
   }
   .div-block-28 {
-    padding: 3em 16px;
+    padding: 2em 16px;
   }
   .image-10 {
     border-radius: 0px;
@@ -2455,11 +2474,15 @@ html.w-mod-js *[data-ix="load-up"] {
     -ms-flex-align: start;
     align-items: flex-start;
   }
+  .div-block-37 {
+    font-size: 8px;
+  }
   .text-block-6 {
+    font-family: Ubuntu, Helvetica, sans-serif;
     color: #9c9c9c;
     font-size: 8px;
     line-height: 1.5em;
-    text-align: left;
+    text-align: center;
   }
   .footer {
     display: block;
@@ -2504,6 +2527,43 @@ html.w-mod-js *[data-ix="load-up"] {
     font-size: 8px;
     line-height: 1.5em;
     text-align: left;
+  }
+  .text-block-13 {
+    font-size: 16px;
+  }
+  .text-block-14 {
+    font-size: 16px;
+  }
+  .link-2 {
+    box-shadow: none;
+    color: #9d9d9d;
+    font-size: 8px;
+  }
+  .link-3 {
+    box-shadow: none;
+    color: #9d9d9d;
+    font-size: 8px;
+  }
+  .link-4 {
+    box-shadow: none;
+    font-family: Ubuntu, Helvetica, sans-serif;
+    color: #9d9d9d;
+    font-size: 8px;
+  }
+  .link-5 {
+    box-shadow: none;
+    font-family: Ubuntu, Helvetica, sans-serif;
+    color: #9d9d9d;
+    font-size: 8px;
+  }
+  .container-9 {
+    padding-right: 16px;
+    padding-left: 16px;
+  }
+  .text-block-15 {
+    font-family: Ubuntu, Helvetica, sans-serif;
+    line-height: 1.5em;
+    text-align: right;
   }
 }
 
