@@ -5940,6 +5940,16 @@ html.w-mod-js *[data-ix="load-up"] {
     line-height: 1.5em;
     text-align: right;
   }
+  .div-block-49 {
+    display: block;
+    height: 100%;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    background-image: none;
+  }
   .heading-13 {
     font-size: 18px;
   }
@@ -5973,6 +5983,9 @@ html.w-mod-js *[data-ix="load-up"] {
   .text-block-17 {
     font-family: Ubuntu, Helvetica, sans-serif;
     font-size: 12px;
+  }
+  .div-block-55 {
+    margin-right: 0px;
   }
   .div-block-56 {
     width: 100%;
@@ -6113,6 +6126,89 @@ html.w-mod-js *[data-ix="load-up"] {
   }
   .text-block-14-copy {
     font-size: 16px;
+  }
+  .div-block-106 {
+    padding-right: 1em;
+    padding-left: 1em;
+  }
+  .container-27 {
+    padding-right: 1em;
+    padding-left: 1em;
+  }
+  .learnedcontent {
+    width: 100%;
+    font-size: 14px;
+  }
+  .heading-45 {
+    text-align: center;
+  }
+  .gettingstarted {
+    padding-right: 1em;
+    padding-left: 1em;
+  }
+  .paragraph-16 {
+    text-align: center;
+  }
+  .div-block-118 {
+    width: 100%;
+  }
+  .container-33 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .container-34 {
+    padding-right: 1em;
+    padding-left: 1em;
+  }
+  .paragraph-17 {
+    font-size: 14px;
+    text-align: center;
+  }
+  .div-block-121 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .previewroww {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .div-block-123 {
+    width: 100%;
+  }
+  .container-35 {
+    padding-right: 1em;
+    padding-left: 1em;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .div-block-124 {
+    width: 100%;
+  }
+  .paragraph-18 {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .div-block-126 {
+    width: 50px;
+    height: 50px;
+  }
+  .button-10 {
+    margin-left: 1em;
+  }
+  .heading-49 {
+    text-align: center;
   }
 }
 
