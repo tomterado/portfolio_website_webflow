@@ -5793,8 +5793,9 @@ html.w-mod-js *[data-ix="load-up"] {
   }
   .herosection {
     height: 100%;
+    margin-top: 0em;
     padding-top: 2em;
-    padding-bottom: 2em;
+    padding-bottom: 3em;
     background-image: url('../images/Screen-Shot-2020-09-12-at-4.27.59-pm.png');
     background-position: 0px 0px;
     background-size: contain;
@@ -5804,9 +5805,12 @@ html.w-mod-js *[data-ix="load-up"] {
     padding-left: 0px;
   }
   .nav-link.w--current {
+    border-top: 1px none #efefef;
+    border-bottom: 1px solid #efefef;
     background-color: #fff;
   }
   .nav-link-2 {
+    border-bottom: 1px solid #efefef;
     background-color: #fff;
   }
   .div-block-28 {
@@ -5855,7 +5859,7 @@ html.w-mod-js *[data-ix="load-up"] {
     text-align: right;
   }
   .footer {
-    display: block;
+    display: none;
     padding-top: 1em;
     padding-bottom: 1em;
   }
@@ -6472,6 +6476,13 @@ html.w-mod-js *[data-ix="load-up"] {
   }
   .tec {
     text-align: right;
+  }
+  .icon {
+    background-color: transparent;
+    color: #000;
+  }
+  .menu-button {
+    background-color: #fff;
   }
 }
 
