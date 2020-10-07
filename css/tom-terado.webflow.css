@@ -1621,6 +1621,7 @@ figcaption {
 }
 
 .footer {
+  display: none;
   padding-top: 2em;
   padding-bottom: 2em;
   border-top: 1px solid #efefef;
@@ -5217,6 +5218,10 @@ figcaption {
   margin-bottom: 0px;
 }
 
+.link-10 {
+  color: #0282f3;
+}
+
 html.w-mod-js *[data-ix="load-up"] {
   opacity: 0;
   -webkit-transform: translate(0px, 50px);
@@ -5894,6 +5899,7 @@ html.w-mod-js *[data-ix="load-up"] {
     padding: 0em 16px;
   }
   .text-block-8 {
+    padding-top: 3em;
     font-size: 16px;
   }
   .container-4 {
@@ -6483,6 +6489,10 @@ html.w-mod-js *[data-ix="load-up"] {
   }
   .menu-button {
     background-color: #fff;
+  }
+  .link-10 {
+    border-bottom: 0px solid #000;
+    text-decoration: none;
   }
 }
 
