@@ -4289,19 +4289,20 @@ figcaption {
 
 .image-47 {
   position: relative;
+  display: none;
 }
 
 .heading-42 {
   margin-bottom: 20px;
   color: #fff;
-  text-align: right;
+  text-align: center;
 }
 
 .paragraph-8 {
   color: #fff;
   font-size: 16px;
   line-height: 2em;
-  text-align: right;
+  text-align: center;
 }
 
 .nonshadow {
@@ -5220,6 +5221,40 @@ figcaption {
 
 .link-10 {
   color: #0282f3;
+}
+
+.text-span-5 {
+  color: #421096;
+  text-decoration: underline;
+}
+
+.text-span-6 {
+  color: #e6b7ff;
+  text-decoration: underline;
+}
+
+.text-span-7 {
+  color: #f65757;
+}
+
+.text-span-8 {
+  color: #f65757;
+}
+
+.text-span-9 {
+  color: #f65757;
+}
+
+.text-span-10 {
+  color: #f65757;
+}
+
+.text-span-11 {
+  color: #f65757;
+}
+
+.text-span-12 {
+  color: #f65757;
 }
 
 html.w-mod-js *[data-ix="load-up"] {
@@ -6292,6 +6327,9 @@ html.w-mod-js *[data-ix="load-up"] {
   .heading-42 {
     text-align: center;
   }
+  .paragraph-8 {
+    color: #fff;
+  }
   .nonshadow {
     width: 100%;
     padding-right: 1em;
@@ -6331,6 +6369,11 @@ html.w-mod-js *[data-ix="load-up"] {
   }
   .leadfre {
     line-height: 24px;
+  }
+  .tycontainer {
+    margin-top: 0em;
+    margin-bottom: 0em;
+    border-radius: 0px;
   }
   .heading-45 {
     text-align: center;
@@ -6481,7 +6524,7 @@ html.w-mod-js *[data-ix="load-up"] {
     margin-left: 0em;
   }
   .tec {
-    text-align: right;
+    text-align: center;
   }
   .icon {
     background-color: transparent;
@@ -6493,6 +6536,24 @@ html.w-mod-js *[data-ix="load-up"] {
   .link-10 {
     border-bottom: 0px solid #000;
     text-decoration: none;
+  }
+  .text-span-13 {
+    color: #f65757;
+  }
+  .text-span-14 {
+    color: #f65757;
+  }
+  .bold-text-5 {
+    color: #f65757;
+  }
+  .text-span-15 {
+    color: #f65757;
+  }
+  .text-span-16 {
+    color: #f65757;
+  }
+  .text-span-17 {
+    color: #f65757;
   }
 }
 
