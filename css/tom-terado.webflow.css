@@ -1474,6 +1474,7 @@ figcaption {
 }
 
 .nav-link {
+  display: none;
   box-shadow: none;
   font-family: Ubuntu, Helvetica, sans-serif;
 }
@@ -5303,8 +5304,8 @@ figcaption {
   text-align: center;
 }
 
-.div-block-28-copy {
-  display: none;
+.portofiomain {
+  display: block;
   height: 100%;
   padding-top: 6em;
   padding-bottom: 3em;
@@ -5846,7 +5847,7 @@ html.w-mod-js *[data-ix="load-up"] {
     font-size: 36px;
   }
 
-  .div-block-28-copy {
+  .portofiomain {
     padding-top: 4em;
     padding-bottom: 4em;
   }
@@ -6979,7 +6980,7 @@ html.w-mod-js *[data-ix="load-up"] {
     text-align: center;
   }
 
-  .div-block-28-copy {
+  .portofiomain {
     padding: 2em 16px;
   }
 
