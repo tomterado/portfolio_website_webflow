@@ -60,7 +60,7 @@ a {
   -webkit-transition: box-shadow 200ms ease, color 200ms ease;
   transition: box-shadow 200ms ease, color 200ms ease;
   font-family: Roboto, sans-serif;
-  color: grey;
+  color: #000;
   font-size: 16px;
   font-weight: 400;
   text-decoration: none;
@@ -5377,6 +5377,92 @@ figcaption {
   text-align: center;
 }
 
+.div-block-130 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100vh;
+  padding-top: 0em;
+  padding-left: 4em;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
+.text-block-35 {
+  padding-top: 1em;
+  font-family: Lato, sans-serif;
+}
+
+.text-block-36 {
+  font-family: Lato, sans-serif;
+}
+
+.link-12 {
+  box-shadow: none;
+  font-family: Lato, sans-serif;
+  color: #333;
+  font-size: 14px;
+  text-decoration: underline;
+}
+
+.link-13 {
+  box-shadow: none;
+  font-family: Lato, sans-serif;
+  color: #333;
+  font-size: 14px;
+  text-decoration: underline;
+}
+
+.link-14 {
+  font-family: Lato, sans-serif;
+  color: #333;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.text-span-18 {
+  text-decoration: none;
+}
+
+.linktwitter {
+  box-shadow: none;
+  font-family: Lato, sans-serif;
+  color: #333;
+  font-size: 14px;
+  font-weight: 400;
+  text-decoration: underline;
+}
+
+.link-15 {
+  font-family: Lato, sans-serif;
+  font-size: 14px;
+  text-decoration: underline;
+}
+
+.link-15.linktext {
+  box-shadow: none;
+}
+
+.linktext {
+  box-shadow: none;
+  font-family: Lato, sans-serif;
+  color: #333;
+  font-size: 14px;
+  text-decoration: underline;
+}
+
 html.w-mod-js *[data-ix="load-up"] {
   opacity: 0;
   -webkit-transform: translate(0px, 50px);
@@ -6986,6 +7072,10 @@ html.w-mod-js *[data-ix="load-up"] {
 
   .div-block-28-copy {
     padding: 2em 16px;
+  }
+
+  .div-block-130 {
+    padding-left: 2em;
   }
 }
 
