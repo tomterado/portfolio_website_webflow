@@ -542,12 +542,18 @@ body {
   }
 
   .container {
+    display: block;
+    height: 100%;
     padding-right: 16px;
     padding-left: 16px;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
   }
 
   .intro-wrapper {
-    margin-top: 96px;
+    margin-top: 2em;
   }
 
   .product-intro {
