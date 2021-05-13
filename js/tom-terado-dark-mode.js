@@ -2034,10 +2034,10 @@ Webflow.define('scroll', module.exports = function ($) {
    */
 
 
+  var reducedMotionMediaQuery = typeof window.matchMedia === 'function' && window.matchMedia('(prefers-reduced-motion: reduce)');
+
   function reducedMotionEnabled() {
-    // Delete this conditional to enable reduced-motion feature
-    if (!document.body.hasAttribute('data-wf-reduce-scroll-motion')) return false;
-    return document.body.getAttribute('data-wf-scroll-motion') === 'none' || 'function' === typeof window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    return document.body.getAttribute('data-wf-scroll-motion') === 'none' || reducedMotionMediaQuery.matches;
   }
   /**
    * Determine if we should execute custom scroll

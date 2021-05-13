@@ -317,6 +317,12 @@ body {
   letter-spacing: 1.5px;
 }
 
+.link-11 {
+  border: 0px solid #171717;
+  color: #171717;
+  text-decoration: underline;
+}
+
 @media screen and (min-width: 1440px) {
   .container {
     height: 100%;
@@ -340,11 +346,23 @@ body {
     height: 100%;
     max-width: 1200px;
   }
+
+  .link-11 {
+    border-style: none;
+  }
 }
 
 @media screen and (min-width: 1920px) {
   .container {
     max-width: 1400px;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
     -webkit-box-flex: 1;
     -webkit-flex: 1;
     -ms-flex: 1;
@@ -617,6 +635,12 @@ body {
 
   .text-block {
     font-size: 12px;
+  }
+
+  .link-11 {
+    border-style: none;
+    color: #333;
+    text-decoration: underline;
   }
 }
 
